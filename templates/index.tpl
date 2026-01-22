@@ -32,6 +32,9 @@
           {block name='hook_home'}
             {$HOOK_HOME nofilter}
           {/block}
+          
+          {* Votre section vidéo personnalisée *}
+          {include file='_partials/videocontainer.tpl'}
         {/block}
       </section>
     {/block}

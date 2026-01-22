@@ -34,22 +34,17 @@ assets:
 # The following lines are showing how to load assets in your page
 # Uncomment and change value to start loading css or js files
   css:
-    product:
-      - id: ecmycosmetique-product-style
-        path: assets/css/product.css
+    all:
+      - id: ecmycosmetique-theme-style
+        path: assets/css/theme.css
         media: all
         priority: 100
   js:
     all:
-      - id: ecmycosmetique-global-script
-        path: assets/js/global.js
+      - id: ecmycosmetique-theme-script
+        path: assets/js/theme.js
         priority: 30
         position: bottom
-    product:
-      - id: ecmycosmetique-product-script
-        path: assets/js/product.js
-        priority: 200
-        attribute: async
 
 global_settings:
   configuration:
