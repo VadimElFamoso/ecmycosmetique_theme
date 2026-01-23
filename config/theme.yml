@@ -53,6 +53,10 @@ global_settings:
     to_enable:
       - ps_linklist
   hooks:
+    custom_hooks:
+      - name: videocontainer
+        title: Video EcmyCosmetique
+        description: Une section vidéo personnalisée pour le thème EcmyCosmetique.
     modules_to_hook:
       displayAfterBodyOpeningTag:
         - blockreassurance

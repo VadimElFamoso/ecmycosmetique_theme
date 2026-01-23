@@ -24,9 +24,9 @@
  *}
 
 {block name='header_top'}
-  <div class="header-top">
+  <div class="header-top py-4">
     <div class="container">
-       <div class="row">
+       <div class="row justify-content-between align-items-center">
         <div class="col-md-2 hidden-sm-down" id="_desktop_logo">
           {if $shop.logo_details}
             {if $page.page_name == 'index'}
@@ -36,7 +36,7 @@
             {/if}
           {/if}
         </div>
-        <div class="bg-primary header-top-right col-md-10 col-sm-12 position-static">
+        <div class="header-top-right col-md-10 col-sm-12 position-static">
           {hook h='displayTop'}
         </div>
       </div>
