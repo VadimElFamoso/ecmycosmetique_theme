@@ -3,6 +3,9 @@
  * All CSS/SCSS files are compiled into assets/css/theme.css
  */
 
+// Import Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
 // Import your partials here
 // @import 'variables';
 // @import 'components/header';
@@ -12,46 +15,20 @@
 $primary-color: #FBF0DE;
 $secondary-color: #463426;
 
-//Parties globales du site :
-
-body {
-    font-family: Arial, sans-serif;
+.container{
     margin: 0;
-    padding: 0;
-    background-color: $primary-color;
 }
 
-footer{
-    background-color: $secondary-color;
+ul{
+    margin-bottom: 0;
 }
 
-.container .row{
-    margin: 0 2em;
+.video-container video{
+    filter: brightness(.15);
 }
 
-#header .container .row{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.row > *{
+    padding-left: 0;
+    padding-right: 0;
 }
-
-
-
-#header{
-    background-color: $primary-color;
-    padding: 2em 0;
-}
-
-#top-menu{
-    li{
-        list-style-type: none;
-    }
-    a{
-        text-decoration: none;
-        color: $secondary-color;
-        font-weight: bold;
-        margin: 0 1em;
-    }
-}
-
 
