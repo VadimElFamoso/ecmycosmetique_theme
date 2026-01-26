@@ -24,7 +24,7 @@
  *}
 <section class="featured-products clearfix mt-3" data-type="bestsellers">
   <h2 class="h2 products-section-title text-uppercase">
-    {l s='Best Sellers' d='Shop.Theme.Catalog'}
+    Nos meilleurs produits :
   </h2>
   {include file="catalog/_partials/productlist.tpl" products=$products productClass="col-xs-12 col-sm-6 col-lg-4 col-xl-3"}
   <a class="all-product-link float-xs-left float-md-right h4" href="{$allBestSellers}">

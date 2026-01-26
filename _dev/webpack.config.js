@@ -34,7 +34,7 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: '../css/theme.css',
+      filename: '../scss/theme.scss',
     }),
     new BrowserSyncPlugin({
       proxy: 'localhost:8000',

@@ -15,6 +15,10 @@
 $primary-color: #FBF0DE;
 $secondary-color: #463426;
 
+body{
+    margin: 2em 0;
+}
+
 .container{
     margin: 0;
 }
@@ -30,5 +34,9 @@ ul{
 .row > *{
     padding-left: 0;
     padding-right: 0;
+}
+
+footer{
+    background-color: $primary-color;
 }
 

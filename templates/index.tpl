@@ -25,6 +25,9 @@
 {extends file='page.tpl'}
 
     {block name='page_content_container'}
+
+      {include file='_partials/videocontainer.tpl'}
+
       <section id="content" class="page-home">
         {block name='page_content_top'}{/block}
 
@@ -35,5 +38,8 @@
         {/block}
       </section>
 
-      {include file='_partials/videocontainer.tpl'}
+      {hook h='displayHomeBottom'}
+
+      <!--Section produits-->
+
     {/block}
