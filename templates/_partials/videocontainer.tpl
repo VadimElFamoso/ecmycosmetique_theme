@@ -9,9 +9,9 @@
             <p class="text-white">Découvrez nos produits de beauté naturels</p>
         </div>
 
-        <div class="overlay-icon position-absolute bottom-0 start-50 translate-middle-x bg-primary p-3 rounded-circle mb-4">
-            <a href="#content" class="text-white">
-                <img src="themes/ecmycosmetique_theme/assets/svg/arrow-down-solid-full.svg" alt="Icone flèche vers le bas" width="40" height="40">
+        <div class="overlay-icon position-absolute bottom-0 start-50 translate-middle-x p-3 mb-4">
+            <a href="#content" class="text-white text-decoration-none">
+                Visiter la boutique
             </a>
         </div>
 </section>

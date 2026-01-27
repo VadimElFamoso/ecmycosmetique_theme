@@ -11866,6 +11866,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  background-color: #463426;
+}
+
 .container {
   margin: 0;
 }
@@ -11881,6 +11885,67 @@ ul {
 .row > * {
   padding-left: 0;
   padding-right: 0;
+}
+
+header {
+  background-color: #FBF0DE;
+}
+
+footer {
+  background-color: #FBF0DE;
+}
+
+.overlay-icon {
+  background-color: #463426;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+.overlay-icon:hover {
+  background-color: rgb(36.9444444444, 27.4444444444, 20.0555555556);
+  text-decoration: none;
+  color: #FBF0DE;
+}
+
+#custom-text {
+  background-color: #FBF0DE;
+  padding: 2em 0;
+  display: flex;
+  justify-content: center;
+  margin: 2em 0;
+}
+#custom-text p {
+  color: #463426;
+}
+
+.products {
+  display: flex;
+}
+
+.products-section-title {
+  color: #FBF0DE;
+}
+
+.product-miniature {
+  color: #FBF0DE;
+}
+
+.product-title a {
+  color: #FBF0DE;
+  text-decoration: none;
+}
+
+.product-flag {
+  display: none;
+}
+
+.all-product-link {
+  display: none;
+}
+
+#content {
+  margin: 0 2em;
 }
 
 /*# sourceMappingURL=theme.css.map*/

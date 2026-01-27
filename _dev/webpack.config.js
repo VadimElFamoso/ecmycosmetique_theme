@@ -34,13 +34,16 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: '../scss/theme.scss',
+      filename: '../css/theme.css',
     }),
     new BrowserSyncPlugin({
       proxy: 'localhost:8000',
       files: [
         '../assets/css/**/*.css',
         '../assets/js/**/*.js',
+        '../templates/**/*.tpl',
+        '../modules/**/*.tpl',
+
       ],
       notify: false,
       open: false,

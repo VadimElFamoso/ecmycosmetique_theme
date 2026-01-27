@@ -16,7 +16,7 @@ $primary-color: #FBF0DE;
 $secondary-color: #463426;
 
 body{
-    margin: 2em 0;
+    background-color: $secondary-color;
 }
 
 .container{
@@ -36,7 +36,70 @@ ul{
     padding-right: 0;
 }
 
+header{
+    background-color: $primary-color;
+}
+
 footer{
     background-color: $primary-color;
 }
 
+//Video container :
+.overlay-icon{
+    background-color: $secondary-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+
+    &:hover{
+        background-color: darken($secondary-color, 10%);
+        text-decoration: none;
+        color: $primary-color;
+    }
+}
+
+//Module texte custom :
+#custom-text{
+    background-color: $primary-color;
+    padding: 2em 0;
+    display: flex;
+    justify-content: center;
+
+    margin: 2em 0;
+    p{
+        color: $secondary-color;
+    }
+}
+//Produit :
+
+.products{
+    display: flex;
+}
+
+.products-section-title{
+    color: $primary-color;
+}
+
+.product-miniature{
+    color: $primary-color;
+}
+.product-title{
+    a{
+        color: $primary-color;
+        text-decoration: none;
+    }
+}
+
+.product-flag{
+    display: none;
+}
+
+.all-product-link{
+    display: none;
+}
+
+//Contenu de la page :
+#content{
+    margin: 0 2em;
+}
